@@ -1,0 +1,6 @@
+- `[x]` Disable automatic memory commits inside `/api/chat` backend
+- `[x]` Return candidate list under `candidates` parameter in `ChatResponse`
+- `[x]` Render review boxes underneath assistant responses showing extracted memories
+- `[x]` Add "Approve" button to call vault commit APIs reactively and update states
+- `[x]` Add "Make change" button to prompt user to supply corrections directly inside the chat
+- `[x]` Implement correction loop parsing inside LLM prompt guidelines and local heuristics fallback

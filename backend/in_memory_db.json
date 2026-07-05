@@ -1,0 +1,831 @@
+{
+  "workspaces": [
+    {
+      "id": "ws_default",
+      "name": "My Decisions",
+      "description": "Capturing and learning from every decision",
+      "createdAt": "2026-07-04T17:46:09.000000Z",
+      "status": "active",
+      "deletedAt": null
+    },
+    {
+      "id": "ws-3dc8947e-d212-45f2-83e7-4863300bb2d4",
+      "name": "Career Choices",
+      "description": "Tracking career decisions",
+      "createdAt": "2026-07-05T18:22:57.669134Z",
+      "status": "deleted",
+      "deletedAt": "2026-07-05T18:38:56.220094Z"
+    },
+    {
+      "id": "ws-c02b46ee-95b5-43ba-97e6-b037c0305db3",
+      "name": "Crime Investigation",
+      "description": "Tracking investigation stories",
+      "createdAt": "2026-07-05T18:22:57.673081Z",
+      "status": "active",
+      "deletedAt": null
+    },
+    {
+      "id": "ws-a2ec36b8-cc17-47ac-a7f6-6f2ca20be59e",
+      "name": "Career Choices",
+      "description": "Tracking career decisions",
+      "createdAt": "2026-07-05T18:23:46.802466Z",
+      "status": "deleted",
+      "deletedAt": "2026-07-05T18:39:06.586496Z"
+    },
+    {
+      "id": "ws-47b52aa6-e3b9-4ce9-a805-ac7c2f0be83b",
+      "name": "Career Choices",
+      "description": "Tracking career decisions",
+      "createdAt": "2026-07-05T18:24:54.876290Z",
+      "status": "deleted",
+      "deletedAt": "2026-07-05T18:38:49.937084Z"
+    },
+    {
+      "id": "ws-b2bd584c-f8da-4982-834f-d20e291be092",
+      "name": "Crime Investigation",
+      "description": "Tracking investigation stories",
+      "createdAt": "2026-07-05T18:24:54.880056Z",
+      "status": "active",
+      "deletedAt": null
+    },
+    {
+      "id": "ws-e94801b1-708d-46d8-9b6e-18902c15c56a",
+      "name": "Career Choices",
+      "description": "Tracking career decisions",
+      "createdAt": "2026-07-05T18:31:33.395409Z",
+      "status": "active",
+      "deletedAt": null
+    },
+    {
+      "id": "ws-36c30752-230f-48d9-b467-b77263cdb090",
+      "name": "Crime Investigation",
+      "description": "Tracking investigation stories",
+      "createdAt": "2026-07-05T18:31:33.398836Z",
+      "status": "active",
+      "deletedAt": null
+    },
+    {
+      "id": "ws-6954a12f-65af-4f5b-9149-c8b984b66113",
+      "name": "Crime Investigation",
+      "description": "Tracking investigation stories",
+      "createdAt": "2026-07-05T18:23:46.808501Z",
+      "status": "deleted",
+      "deletedAt": "2026-07-05T18:23:56.075106Z"
+    }
+  ],
+  "entries": [
+    {
+      "id": "mem-a39a78b7-6449-4775-8871-022501291e53",
+      "entry_id": "mem-a39a78b7-6449-4775-8871-022501291e53",
+      "entry_type": "decision",
+      "title": "Reporter's Current Case",
+      "content": "The user is a reporter working on a rape case.",
+      "timestamp": "2026-07-04T17:46:09.221883",
+      "metadata": {
+        "source": "chat",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-f4bc271f-21c7-4c7a-97ad-1e0ea74798f7",
+      "entry_id": "mem-f4bc271f-21c7-4c7a-97ad-1e0ea74798f7",
+      "entry_type": "environment",
+      "title": "Current Project",
+      "content": "Working on a rape case as a reporter",
+      "timestamp": "2026-07-04T18:52:43.524857",
+      "metadata": {
+        "source": "chat",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-cd609854-1e10-4574-9dbf-79ccc7ff15c6",
+      "entry_id": "mem-cd609854-1e10-4574-9dbf-79ccc7ff15c6",
+      "entry_type": "environment",
+      "title": "Current Work",
+      "content": "Working on a rape case as a reporter",
+      "timestamp": "2026-07-04T19:10:13.482030",
+      "metadata": {
+        "source": "chat",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-4c56139f-73a6-4939-91d7-6ee82a7419e5",
+      "entry_id": "mem-4c56139f-73a6-4939-91d7-6ee82a7419e5",
+      "entry_type": "decision",
+      "title": "6 years of experience as a crime reporter",
+      "content": "The user has been a crime reporter for 6 years, working on various cases including the current rape case.",
+      "timestamp": "2026-07-04T19:11:12.749275",
+      "metadata": {
+        "source": "chat",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-b21d673f-c9ff-4e5f-aaac-da6fa3ab63b7",
+      "entry_id": "mem-b21d673f-c9ff-4e5f-aaac-da6fa3ab63b7",
+      "entry_type": "goal",
+      "title": "Publishing an accurate report while protecting the victim's identity",
+      "content": "The user aims to publish the most accurate report possible on the rape case while ensuring the victim's identity remains protected.",
+      "timestamp": "2026-07-04T19:11:12.749275",
+      "metadata": {
+        "source": "chat",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-d495af97-56e7-4317-b4e8-6c565f85c553",
+      "entry_id": "mem-d495af97-56e7-4317-b4e8-6c565f85c553",
+      "entry_type": "decision",
+      "title": "Verification Preference",
+      "content": "User prefers verifying information from multiple sources before publishing to ensure accuracy in reporting.",
+      "timestamp": "2026-07-04T19:26:25.265646",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-8213ed7e-06b3-4e11-8b79-2a62e7773e30",
+      "entry_id": "mem-8213ed7e-06b3-4e11-8b79-2a62e7773e30",
+      "entry_type": "decision",
+      "title": "Delaying Publication to Verify Witness Statements",
+      "content": "The user decided to delay publication by two days to verify witness statements and ensure the accuracy of the report.",
+      "timestamp": "2026-07-04T19:29:57.701904",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-b40caa61-b9b3-4286-b931-7ceeaf074793",
+      "entry_id": "mem-b40caa61-b9b3-4286-b931-7ceeaf074793",
+      "entry_type": "decision",
+      "title": "Rejected Immediate Publication",
+      "content": "The user considered publishing immediately but decided against it due to incomplete evidence, prioritizing the accuracy and completeness of the report.",
+      "timestamp": "2026-07-04T19:30:30.431389",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-57355595-c3f1-4424-b0b5-55f823babd8b",
+      "entry_id": "mem-57355595-c3f1-4424-b0b5-55f823babd8b",
+      "entry_type": "decision",
+      "title": "Interviewing the victim's lawyer",
+      "content": "The user decided to interview the victim's lawyer before publishing the report on the rape case to gather more information and perspectives.",
+      "timestamp": "2026-07-04T19:30:45.645897",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-8c522e46-9260-407d-8fb3-9bb0157da9a1",
+      "entry_id": "mem-8c522e46-9260-407d-8fb3-9bb0157da9a1",
+      "entry_type": "reasoning",
+      "title": "Insight: Verification Strategy",
+      "content": "The user's approach of delaying publication to verify witness statements and preferring to gather information from multiple sources before publishing has proven successful in ensuring the accuracy of the report and the integrity of the investigation. This strategy could be beneficial in future investigations.",
+      "timestamp": "2026-07-04T19:31:38.186402",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-d00afe89-822c-439b-9aa0-716c32b5c2ab",
+      "entry_id": "mem-d00afe89-822c-439b-9aa0-716c32b5c2ab",
+      "entry_type": "outcome",
+      "title": "Delayed Publication Outcome",
+      "content": "The delayed publication of the report helped uncover inconsistencies in one witness statement and allowed for the discovery of new evidence through the lawyer's interview, positively impacting the investigation.",
+      "timestamp": "2026-07-04T19:31:45.812724",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-70deaf32-e2f3-481b-bb20-e0e25261bd84",
+      "entry_id": "mem-70deaf32-e2f3-481b-bb20-e0e25261bd84",
+      "entry_type": "outcome",
+      "title": "Prevention of Misinformation",
+      "content": "Not publishing the leaked social media posts prevented the spread of misinformation, protecting the integrity of the case and the well-being of the parties involved.",
+      "timestamp": "2026-07-04T19:31:46.546391",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-7c49d817-aec6-4e33-98b2-f8b35d2c74c1",
+      "entry_id": "mem-7c49d817-aec6-4e33-98b2-f8b35d2c74c1",
+      "entry_type": "environment",
+      "title": "Working as a crime reporter",
+      "content": "The user is working as a crime reporter, focusing on a rape case, aiming to publish an accurate report while protecting the victim's identity.",
+      "timestamp": "2026-07-04T19:32:17.485892",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-6e7bd068-5ee7-46e6-836d-a37c713f30e6",
+      "entry_id": "mem-6e7bd068-5ee7-46e6-836d-a37c713f30e6",
+      "entry_type": "goal",
+      "title": "Accurate Report Goal",
+      "content": "Publish the most accurate report possible on the rape case while protecting the victim's identity",
+      "timestamp": "2026-07-04T19:32:32.056612",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-24ec6dd1-e38f-414e-8d0d-eac02563149c",
+      "entry_id": "mem-24ec6dd1-e38f-414e-8d0d-eac02563149c",
+      "entry_type": "decision",
+      "title": "Delayed Publication Reason",
+      "content": "The user delayed publication to verify witness statements and ensure the accuracy of the report.",
+      "timestamp": "2026-07-04T19:32:52.652714",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-dd7bfff4-7f5a-469a-b43f-87891f25e34d",
+      "entry_id": "mem-dd7bfff4-7f5a-469a-b43f-87891f25e34d",
+      "entry_type": "reasoning",
+      "title": "Insight: Seeking diverse perspectives to uncover blind spots",
+      "content": "Considering seeking input from other experts or stakeholders to uncover potential blind spots in the investigation and ensure a more comprehensive understanding of the case.",
+      "timestamp": "2026-07-04T19:33:07.119866",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-4e19e446-7a80-4c7b-8fe1-0af911ddb969",
+      "entry_id": "mem-4e19e446-7a80-4c7b-8fe1-0af911ddb969",
+      "entry_type": "reasoning",
+      "title": "Insight: Potential contradiction in verification processes",
+      "content": "The user's consideration of publishing based on a single anonymous source may undermine their typically rigorous verification standards.",
+      "timestamp": "2026-07-04T19:33:30.492318",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95
+      },
+      "workspace_id": "ws_default"
+    },
+    {
+      "id": "mem-4023d0da-96a2-41ff-8a04-ad34a4efc3de",
+      "entry_id": "mem-4023d0da-96a2-41ff-8a04-ad34a4efc3de",
+      "entry_type": "environment",
+      "title": "Current Occupation",
+      "content": "The user is currently working as a reporter, specifically covering a high-profile rape case.",
+      "timestamp": "2026-07-05T12:36:06.709274",
+      "workspace_id": "ws-1783253854778",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783253854778"
+      }
+    },
+    {
+      "id": "mem-f83dc030-b191-4994-b04d-ecc327b5f779",
+      "entry_id": "mem-f83dc030-b191-4994-b04d-ecc327b5f779",
+      "entry_type": "environment",
+      "title": "User role",
+      "content": "User is a reporter covering a high-profile rape case",
+      "timestamp": "2026-07-05T12:49:45.810995",
+      "workspace_id": "ws-1783253854778",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783253854778"
+      }
+    },
+    {
+      "id": "mem-e5badd55-a082-4602-9366-d1e31ba8b0a2",
+      "entry_id": "mem-e5badd55-a082-4602-9366-d1e31ba8b0a2",
+      "entry_type": "goal",
+      "title": "Maintain environment",
+      "content": "User wants to keep the environment as it is",
+      "timestamp": "2026-07-05T12:49:45.841090",
+      "workspace_id": "ws-1783253854778",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783253854778"
+      }
+    },
+    {
+      "id": "mem-bd6c9373-b3c9-4f3d-8eab-454e5deb245a",
+      "entry_id": "mem-bd6c9373-b3c9-4f3d-8eab-454e5deb245a",
+      "entry_type": "environment",
+      "title": "User input 'v'",
+      "content": "The user provided a single character 'v' without any additional context.",
+      "timestamp": "2026-07-05T12:53:08.476392",
+      "workspace_id": "ws-1783253854778",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783253854778"
+      }
+    },
+    {
+      "id": "mem-c6cac9f3-9a8b-44bf-a0d4-f8e71c23a885",
+      "entry_id": "mem-c6cac9f3-9a8b-44bf-a0d4-f8e71c23a885",
+      "entry_type": "environment",
+      "title": "Initial conversation context",
+      "content": "User initiated conversation with no prior context",
+      "timestamp": "2026-07-05T12:59:06.864097",
+      "workspace_id": "ws-1783253854778",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783253854778"
+      }
+    },
+    {
+      "id": "mem-645fbb09-55c9-4e75-b07b-29864d7c87dc",
+      "entry_id": "mem-645fbb09-55c9-4e75-b07b-29864d7c87dc",
+      "entry_type": "decision",
+      "title": "Decision to not save 'v' to memory",
+      "content": "User chose not to save the character 'v' to their memories",
+      "timestamp": "2026-07-05T12:59:06.888102",
+      "workspace_id": "ws-1783253854778",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783253854778"
+      }
+    },
+    {
+      "id": "mem-c3bcc201-c3cf-4d05-8633-6da429de35ee",
+      "entry_id": "mem-c3bcc201-c3cf-4d05-8633-6da429de35ee",
+      "entry_type": "environment",
+      "title": "Initial Interaction",
+      "content": "The user initiated a conversation with a truncated message.",
+      "timestamp": "2026-07-05T13:01:44.120368",
+      "workspace_id": "ws-1783256498973",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783256498973"
+      }
+    },
+    {
+      "id": "mem-35a49f3f-ee00-438b-9f72-131e09640609",
+      "entry_id": "mem-35a49f3f-ee00-438b-9f72-131e09640609",
+      "entry_type": "environment",
+      "title": "Initial Interaction",
+      "content": "User started with a potentially meaningless input 'gi', which was interpreted as a cut-off or incomplete statement.",
+      "timestamp": "2026-07-05T13:02:22.558073",
+      "workspace_id": "ws-1783256498973",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783256498973"
+      }
+    },
+    {
+      "id": "mem-ad6ab57f-f80b-4ae1-ad4e-25982ebdd46e",
+      "entry_id": "mem-ad6ab57f-f80b-4ae1-ad4e-25982ebdd46e",
+      "entry_type": "environment",
+      "title": "Current Work Assignment",
+      "content": "The user is currently working as a reporter covering a high-profile rape case.",
+      "timestamp": "2026-07-05T13:23:32.667962",
+      "workspace_id": "ws-1783257769350",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783257769350"
+      }
+    },
+    {
+      "id": "mem-6262dc3c-c064-43a8-bdc8-b8f6b01fd382",
+      "entry_id": "mem-6262dc3c-c064-43a8-bdc8-b8f6b01fd382",
+      "entry_type": "environment",
+      "title": "Current Work Assignment",
+      "content": "The user is currently working as a reporter covering a high-profile rape case.",
+      "timestamp": "2026-07-05T13:23:37.351907",
+      "workspace_id": "ws-1783257769350",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783257769350"
+      }
+    },
+    {
+      "id": "mem-53bf353d-8a59-4b5c-b820-00a2f0b458f7",
+      "entry_id": "mem-53bf353d-8a59-4b5c-b820-00a2f0b458f7",
+      "entry_type": "decision",
+      "title": "Delaying Publication for Evidence Verification",
+      "content": "Decided to delay publication of the high-profile rape case report by two days to verify evidence and ensure accuracy.",
+      "timestamp": "2026-07-05T13:24:05.761004",
+      "workspace_id": "ws-1783257769350",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783257769350"
+      }
+    },
+    {
+      "id": "mem-64d3b020-207b-47ae-9779-c171d195face",
+      "entry_id": "mem-64d3b020-207b-47ae-9779-c171d195face",
+      "entry_type": "reasoning",
+      "title": "Information Verification Approach",
+      "content": "The user prefers verifying information from multiple sources to ensure accuracy in their reporting.",
+      "timestamp": "2026-07-05T13:24:57.306927",
+      "workspace_id": "ws-1783257769350",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783257769350"
+      }
+    },
+    {
+      "id": "mem-c933b2be-b4b9-4959-bd33-e88daafbca33",
+      "entry_id": "mem-c933b2be-b4b9-4959-bd33-e88daafbca33",
+      "entry_type": "decision",
+      "title": "Withholding unverified witness statement",
+      "content": "Chose not to publish an unverified witness statement to ensure the integrity of the report.",
+      "timestamp": "2026-07-05T13:25:12.107982",
+      "workspace_id": "ws-1783257769350",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783257769350"
+      }
+    },
+    {
+      "id": "mem-b22cbabd-905d-46e0-aa7a-52625341d9ff",
+      "entry_id": "mem-b22cbabd-905d-46e0-aa7a-52625341d9ff",
+      "entry_type": "reasoning",
+      "title": "Pattern in Decision Making",
+      "content": "The user tends to prioritize accuracy and responsible journalism in their decision-making process, often choosing to delay publication or withhold unverified information to ensure the integrity of their reporting.",
+      "timestamp": "2026-07-05T13:26:14.735169",
+      "workspace_id": "ws-1783257769350",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783257769350"
+      }
+    },
+    {
+      "id": "mem-7a6a4e31-1a5b-4b65-8df5-516e3c9fb301",
+      "entry_id": "mem-7a6a4e31-1a5b-4b65-8df5-516e3c9fb301",
+      "entry_type": "reasoning",
+      "title": "Insight: Considering Unconventional Sources",
+      "content": "Exploring unconventional sources or collaborating with other experts could provide a more comprehensive understanding of the high-profile rape case.",
+      "timestamp": "2026-07-05T13:26:34.603098",
+      "workspace_id": "ws-1783257769350",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783257769350"
+      }
+    },
+    {
+      "id": "mem-ceb4fa15-0639-47c6-8134-af4fe7a17919",
+      "entry_id": "mem-ceb4fa15-0639-47c6-8134-af4fe7a17919",
+      "entry_type": "decision",
+      "title": "Considering publication based on anonymous source",
+      "content": "The user is weighing the pros and cons of publishing a story based on a single anonymous source, which may impact the story's credibility and the user's commitment to responsible journalism.",
+      "timestamp": "2026-07-05T13:27:31.281638",
+      "workspace_id": "ws-1783257769350",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783257769350"
+      }
+    },
+    {
+      "id": "mem-f9606e0a-85ce-4b7e-9bcb-03f1f186098c",
+      "entry_id": "mem-f9606e0a-85ce-4b7e-9bcb-03f1f186098c",
+      "entry_type": "reasoning",
+      "title": "Insight: Evaluating single anonymous source",
+      "content": "The user is considering publishing a story based on a single anonymous source, which may indicate a potential blind spot in their decision-making process, as it could compromise the story's credibility and the user's journalistic standards.",
+      "timestamp": "2026-07-05T13:27:38.739808",
+      "workspace_id": "ws-1783257769350",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783257769350"
+      }
+    },
+    {
+      "id": "mem-1148a247-5f07-435f-bee4-ab41a10a1a98",
+      "entry_id": "mem-1148a247-5f07-435f-bee4-ab41a10a1a98",
+      "entry_type": "reasoning",
+      "title": "Insight: Potential Blind Spots in Decision-Making",
+      "content": "The user's past experiences as a crime reporter, particularly in prioritizing accuracy and responsible journalism, may be influencing their current decision-making in ways that lead to overlooking alternative perspectives or evidence.",
+      "timestamp": "2026-07-05T13:29:44.426408",
+      "workspace_id": "ws-1783257769350",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783257769350"
+      }
+    },
+    {
+      "id": "mem-5be38d31-6d0a-4a1d-b412-df49160a228e",
+      "entry_id": "mem-5be38d31-6d0a-4a1d-b412-df49160a228e",
+      "entry_type": "environment",
+      "title": "Crime Reporting Experience",
+      "content": "The user has experience working as a crime reporter, with a focus on verifying witness statements and protecting victim identities.",
+      "timestamp": "2026-07-05T17:20:48.426460",
+      "workspace_id": "ws-1783192172798",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783192172798"
+      }
+    },
+    {
+      "id": "mem-b4b5d361-4a7a-4d41-a36c-ab785bd55b8e",
+      "entry_id": "mem-b4b5d361-4a7a-4d41-a36c-ab785bd55b8e",
+      "entry_type": "environment",
+      "title": "Crime Reporting Experience",
+      "content": "The user has experience working as a crime reporter, with a focus on verifying witness statements and protecting victim identities.",
+      "timestamp": "2026-07-05T17:20:49.508759",
+      "workspace_id": "ws-1783192172798",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783192172798"
+      }
+    },
+    {
+      "id": "mem-aeae45ae-858c-4c9a-9e81-61acf590bd61",
+      "entry_id": "mem-aeae45ae-858c-4c9a-9e81-61acf590bd61",
+      "entry_type": "environment",
+      "title": "Crime Reporting Experience",
+      "content": "The user has experience working as a crime reporter, with a focus on verifying witness statements and protecting victim identities.",
+      "timestamp": "2026-07-05T17:20:50.558723",
+      "workspace_id": "ws-1783192172798",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783192172798"
+      }
+    },
+    {
+      "id": "mem-5e50715b-5be3-41fb-b37c-b6566d5d43f4",
+      "entry_id": "mem-5e50715b-5be3-41fb-b37c-b6566d5d43f4",
+      "entry_type": "environment",
+      "title": "Crime Reporting Experience",
+      "content": "The user has experience working as a crime reporter, with a focus on verifying witness statements and protecting victim identities.",
+      "timestamp": "2026-07-05T17:20:52.542323",
+      "workspace_id": "ws-1783192172798",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783192172798"
+      }
+    },
+    {
+      "id": "mem-775a16e0-43e0-4624-8f7b-e1db49710532",
+      "entry_id": "mem-775a16e0-43e0-4624-8f7b-e1db49710532",
+      "entry_type": "decision",
+      "title": "Delayed Publication for Verification",
+      "content": "The user decided to delay publication by two days to verify witness statements and ensure the accuracy of the report, leading to the discovery of new evidence.",
+      "timestamp": "2026-07-05T17:20:58.452913",
+      "workspace_id": "ws-1783192172798",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783192172798"
+      }
+    },
+    {
+      "id": "mem-11f40d19-ec45-4b84-8adf-cb40b8128e45",
+      "entry_id": "mem-11f40d19-ec45-4b84-8adf-cb40b8128e45",
+      "entry_type": "decision",
+      "title": "Delayed Publication for Verification",
+      "content": "The user decided to delay publication by two days to verify witness statements and ensure the accuracy of the report, leading to the discovery of new evidence.",
+      "timestamp": "2026-07-05T17:20:59.545527",
+      "workspace_id": "ws-1783192172798",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783192172798"
+      }
+    },
+    {
+      "id": "mem-9a4ebd1a-dce7-4606-aaf9-68cab62567a1",
+      "entry_id": "mem-9a4ebd1a-dce7-4606-aaf9-68cab62567a1",
+      "entry_type": "decision",
+      "title": "Delayed Publication for Verification",
+      "content": "The user decided to delay publication by two days to verify witness statements and ensure the accuracy of the report, leading to the discovery of new evidence.",
+      "timestamp": "2026-07-05T17:21:00.594367",
+      "workspace_id": "ws-1783192172798",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783192172798"
+      }
+    },
+    {
+      "id": "mem-f8a171dc-4c39-4852-93bf-6ab3bc082f99",
+      "entry_id": "mem-f8a171dc-4c39-4852-93bf-6ab3bc082f99",
+      "entry_type": "decision",
+      "title": "Delayed Publication for Verification",
+      "content": "The user decided to delay publication by two days to verify witness statements and ensure the accuracy of the report, leading to the discovery of new evidence.",
+      "timestamp": "2026-07-05T17:21:02.577608",
+      "workspace_id": "ws-1783192172798",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783192172798"
+      }
+    },
+    {
+      "id": "mem-09fde07f-6bd4-495c-ab35-ccf77cb4cb7a",
+      "entry_id": "mem-09fde07f-6bd4-495c-ab35-ccf77cb4cb7a",
+      "entry_type": "reasoning",
+      "title": "Caution with Anonymous Sources",
+      "content": "The user exercises caution when relying on single anonymous sources for new stories, considering the potential need for additional sources or corroborating evidence.",
+      "timestamp": "2026-07-05T17:21:10.634289",
+      "workspace_id": "ws-1783192172798",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783192172798"
+      }
+    },
+    {
+      "id": "mem-0fe85a21-bab8-4f2e-a96e-25ae0ed1f1e5",
+      "entry_id": "mem-0fe85a21-bab8-4f2e-a96e-25ae0ed1f1e5",
+      "entry_type": "reasoning",
+      "title": "Caution with Anonymous Sources",
+      "content": "The user exercises caution when relying on single anonymous sources for new stories, considering the potential need for additional sources or corroborating evidence.",
+      "timestamp": "2026-07-05T17:21:12.625537",
+      "workspace_id": "ws-1783192172798",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-1783192172798"
+      }
+    },
+    {
+      "id": "mem-6155d857-a282-43c5-b5d6-37f0335fb2b1",
+      "entry_id": "mem-6155d857-a282-43c5-b5d6-37f0335fb2b1",
+      "entry_type": "decision",
+      "title": "Unverified Witness Decision",
+      "content": "I chose not to publish an unverified witness statement.",
+      "timestamp": "2026-07-05T18:22:57.677166",
+      "workspace_id": "ws-3dc8947e-d212-45f2-83e7-4863300bb2d4",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-3dc8947e-d212-45f2-83e7-4863300bb2d4"
+      }
+    },
+    {
+      "id": "mem-b83df5b6-a249-492a-8204-0f104009be16",
+      "entry_id": "mem-b83df5b6-a249-492a-8204-0f104009be16",
+      "entry_type": "decision",
+      "title": "Witness Verification Delay",
+      "content": "I delayed publication by two days to verify witness statements.",
+      "timestamp": "2026-07-05T18:23:07.693188",
+      "workspace_id": "ws-c02b46ee-95b5-43ba-97e6-b037c0305db3",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-c02b46ee-95b5-43ba-97e6-b037c0305db3"
+      }
+    },
+    {
+      "id": "mem-e863afea-b45f-467b-9106-cac2edd55631",
+      "entry_id": "mem-e863afea-b45f-467b-9106-cac2edd55631",
+      "entry_type": "decision",
+      "title": "Unverified Witness Decision",
+      "content": "I chose not to publish an unverified witness statement.",
+      "timestamp": "2026-07-05T18:23:46.812602",
+      "workspace_id": "ws-a2ec36b8-cc17-47ac-a7f6-6f2ca20be59e",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-a2ec36b8-cc17-47ac-a7f6-6f2ca20be59e"
+      }
+    },
+    {
+      "id": "mem-90ecf5e1-62ec-408d-ba98-83b0dd7e18ce",
+      "entry_id": "mem-90ecf5e1-62ec-408d-ba98-83b0dd7e18ce",
+      "entry_type": "decision",
+      "title": "Witness Verification Delay",
+      "content": "I delayed publication by two days to verify witness statements.",
+      "timestamp": "2026-07-05T18:23:48.908161",
+      "workspace_id": "ws-6954a12f-65af-4f5b-9149-c8b984b66113",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-6954a12f-65af-4f5b-9149-c8b984b66113"
+      }
+    },
+    {
+      "id": "mem-6a60ff83-33fd-4c2f-b4fe-9360baeb3d12",
+      "entry_id": "mem-6a60ff83-33fd-4c2f-b4fe-9360baeb3d12",
+      "entry_type": "decision",
+      "title": "Unverified Witness Decision",
+      "content": "I chose not to publish an unverified witness statement.",
+      "timestamp": "2026-07-05T18:24:54.883962",
+      "workspace_id": "ws-47b52aa6-e3b9-4ce9-a805-ac7c2f0be83b",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-47b52aa6-e3b9-4ce9-a805-ac7c2f0be83b"
+      }
+    },
+    {
+      "id": "mem-1542e1c7-ded8-4410-8cb6-61c7d7b11965",
+      "entry_id": "mem-1542e1c7-ded8-4410-8cb6-61c7d7b11965",
+      "entry_type": "decision",
+      "title": "Witness Verification Delay",
+      "content": "I delayed publication by two days to verify witness statements.",
+      "timestamp": "2026-07-05T18:24:56.539347",
+      "workspace_id": "ws-b2bd584c-f8da-4982-834f-d20e291be092",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-b2bd584c-f8da-4982-834f-d20e291be092"
+      }
+    },
+    {
+      "id": "mem-caa969ec-4e9c-491c-abf2-d790179fb91a",
+      "entry_id": "mem-caa969ec-4e9c-491c-abf2-d790179fb91a",
+      "entry_type": "decision",
+      "title": "Unverified Witness Decision",
+      "content": "I chose not to publish an unverified witness statement.",
+      "timestamp": "2026-07-05T18:31:33.401931",
+      "workspace_id": "ws-e94801b1-708d-46d8-9b6e-18902c15c56a",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-e94801b1-708d-46d8-9b6e-18902c15c56a"
+      }
+    },
+    {
+      "id": "mem-13f68539-a82a-437f-94d7-315f50b79688",
+      "entry_id": "mem-13f68539-a82a-437f-94d7-315f50b79688",
+      "entry_type": "decision",
+      "title": "Witness Verification Delay",
+      "content": "I delayed publication by two days to verify witness statements.",
+      "timestamp": "2026-07-05T18:31:35.731849",
+      "workspace_id": "ws-36c30752-230f-48d9-b467-b77263cdb090",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-36c30752-230f-48d9-b467-b77263cdb090"
+      }
+    },
+    {
+      "id": "mem-171fc7dc-c1bb-4346-8462-48d681eb5c75",
+      "entry_id": "mem-171fc7dc-c1bb-4346-8462-48d681eb5c75",
+      "entry_type": "environment",
+      "title": "Current Occupation",
+      "content": "The user is currently working as a reporter.",
+      "timestamp": "2026-07-05T18:44:24.127297",
+      "workspace_id": "ws-c02b46ee-95b5-43ba-97e6-b037c0305db3",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-c02b46ee-95b5-43ba-97e6-b037c0305db3"
+      }
+    },
+    {
+      "id": "mem-01f87245-e4ce-4307-a4e4-35b5507de11c",
+      "entry_id": "mem-01f87245-e4ce-4307-a4e4-35b5507de11c",
+      "entry_type": "goal",
+      "title": "Rape Case Investigation",
+      "content": "The user is investigating a rape case, indicating a need for careful and sensitive handling of information.",
+      "timestamp": "2026-07-05T18:44:24.166231",
+      "workspace_id": "ws-c02b46ee-95b5-43ba-97e6-b037c0305db3",
+      "metadata": {
+        "source": "insight",
+        "confidence": 0.95,
+        "workspace_id": "ws-c02b46ee-95b5-43ba-97e6-b037c0305db3"
+      }
+    }
+  ]
+}
