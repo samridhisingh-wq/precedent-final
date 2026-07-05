@@ -3,7 +3,7 @@
 > Never repeat the same mistake twice.
 
 Precedent is a full-stack AI application that captures your decisions, learns from outcomes using Cognee Cloud's knowledge graph, and intelligently warns you before repeating past mistakes.
-
+Precedent doesn't just remember. It uncovers patterns, reveals blind spots, and gives you perspectives you may have overlooked.
 ## The Vision
 
 Every decision you make shapes your future. But most of us forget the context of past decisions, repeat the same mistakes, and miss opportunities to apply lessons learned. **Precedent** changes that by creating a living memory of your decisions and their outcomes.
