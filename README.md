@@ -388,3 +388,6 @@ That's the world Precedent is building.
 **Start capturing your decisions today.** Visit http://localhost:3000 to begin.
 
 Made with ❤️ using Next.js, FastAPI, and Cognee Cloud.
+
+Please note that this was made majorly with the help of Antigravity and chatgpt
+
